@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1148.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.FXMLDocumentController">
+   <children>
+      <MenuBar prefHeight="39.0" prefWidth="826.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="HOME">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#getfile2" text="FILE" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="INPUT">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#getupdate2" text="UPDATE" />
+              <MenuItem mnemonicParsing="false" onAction="#getnewapplication" text="NEWAPPLICATION" />
+                  <MenuItem mnemonicParsing="false" onAction="#getbgp2" text="BGP" />
+                  <MenuItem mnemonicParsing="false" onAction="#getremindcardissue2" text="REMIND_CARD_ISSUE" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="NOTIFICATION">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#getreport2" text="REPORT" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="SMS">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#getsms2" text="SMS" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="SEARCH">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#getsearch2" text="SEARCH" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <TableView layoutX="66.0" layoutY="94.0" prefHeight="208.0" prefWidth="211.0" rotate="-50.2">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TableView layoutX="372.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" rotate="38.7">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="761.0" fitWidth="1148.0" layoutX="-2.0" layoutY="38.0" pickOnBounds="true">
+         <image>
+            <Image url="@ddd.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

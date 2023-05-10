@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: #990000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.SMSController">
+   <children>
+      <Label layoutX="419.0" layoutY="32.0" prefHeight="17.0" prefWidth="128.0" text="SMS" textFill="#d7d2d2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="115.0" prefHeight="48.0" prefWidth="236.0" text="Newly listed (membership)  :" textFill="#e1dada">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="165.0" prefHeight="35.0" prefWidth="236.0" text="Donating blood                   :" textFill="#ebe4e4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="212.0" prefHeight="27.0" prefWidth="236.0" text="BGP                                      :" textFill="#dacfcf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="247.0" prefHeight="27.0" prefWidth="236.0" text="individual                             :" textFill="#e8e5e5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="292.0" prefHeight="27.0" prefWidth="236.0" text="General SMS                        :" textFill="#f8efef">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="346.0" prefHeight="27.0" prefWidth="236.0" text="Notification                          :" textFill="#e8e1e1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="496.0" layoutY="346.0" prefHeight="27.0" prefWidth="142.0" text="you passed 4 month" textFill="#f8eaea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="364.0" layoutY="347.0" opacity="0.68" prefHeight="25.0" prefWidth="128.0" />
+      <Button layoutX="652.0" layoutY="213.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#e8e3e3" />
+      <Button layoutX="652.0" layoutY="170.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#f5eded" />
+      <Button layoutX="652.0" layoutY="127.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#eee9e9" />
+      <Button layoutX="652.0" layoutY="248.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#f8e8e8" />
+      <Button layoutX="652.0" layoutY="347.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#f2eaea" />
+      <Button layoutX="652.0" layoutY="293.0" mnemonicParsing="false" style="-fx-background-color: #4e6e76;" text="send" textFill="#f5ecec" />
+   </children>
+</AnchorPane>

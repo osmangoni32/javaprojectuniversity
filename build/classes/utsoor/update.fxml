@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: #990000#beada6;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.InputController">
+   <children>
+      <Label layoutX="358.0" layoutY="26.0" text="Update info" textFill="#f5f0f0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="113.0" text="ID                 :" textFill="#fcf0f0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="172.0" prefHeight="20.0" prefWidth="102.0" text="Name           :" textFill="#fcf7f787">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="227.0" prefHeight="20.0" prefWidth="219.0" text="Number of blood donation times:" textFill="#f5eded">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="113.0" prefHeight="20.0" prefWidth="126.0" text="Blood donate Date:" textFill="#f2f0f0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="id" layoutX="209.0" layoutY="111.0" opacity="0.52" />
+      <TextField fx:id="name" layoutX="209.0" layoutY="170.0" opacity="0.47" />
+      <TextField fx:id="nbdt" layoutX="501.0" layoutY="224.0" opacity="0.51" prefHeight="25.0" prefWidth="171.0" />
+      <Button layoutX="407.0" layoutY="310.0" mnemonicParsing="false" onAction="#getdetails33" prefHeight="45.0" prefWidth="113.0" style="-fx-background-color: #4e6e76;" text="Details" textFill="#f5efef">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Button fx:id="update" layoutX="552.0" layoutY="310.0" mnemonicParsing="false" onAction="#getupdate33" prefHeight="45.0" prefWidth="113.0" style="-fx-background-color: #4e6e76;" text="update" textFill="#e4e3e3">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Label layoutX="397.0" layoutY="174.0" prefHeight="17.0" prefWidth="102.0" text="        Profession:" textFill="#ebe5e5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prof" layoutX="501.0" layoutY="170.0" opacity="0.54" prefHeight="25.0" prefWidth="171.0" />
+      <TextField fx:id="udpbdd" layoutX="501.0" layoutY="111.0" opacity="0.52" prefHeight="25.0" prefWidth="171.0" promptText="MM/dd/yyyy" />
+   </children>
+</AnchorPane>

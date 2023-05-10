@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="1100.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoor.FXMLDocumentController">
+   <content>
+      <AnchorPane id="AnchorPane" prefHeight="1100.0" prefWidth="883.0" style="-fx-background-color: #5a7238;">
+         <children>
+            <Label layoutX="9.0" layoutY="2.0" prefHeight="28.0" prefWidth="104.0" style="-fx-background-color: #ba3f3f;" text="আইডি নাম্বার :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#f8fc08" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="261.0" layoutY="7.0" prefHeight="43.0" prefWidth="270.0" text="                  উৎসর্গ" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#cd155e" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="207.0" layoutY="55.0" prefHeight="39.0" prefWidth="452.0" text="                     রক্তদান-ই হোক মানব সেবার প্রথম উৎসর্গ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bf7526" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="315.0" layoutY="101.0" prefHeight="42.0" prefWidth="225.0" text="             যাত্রা শুরু-২০১৪ ইং">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bf2727" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="23.0" layoutY="217.0" prefHeight="43.0" prefWidth="713.0" text="                                         স্থান :২৮ নং ওয়ার্ড কাউন্সিলরের কার্যালয়  সংলগ্ন ,মতিহার,রাজশাহী.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#b23147" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <RadioButton fx:id="mem" layoutX="49.0" layoutY="260.0" mnemonicParsing="false" text="member">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="first" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="org" layoutX="133.0" layoutY="260.0" mnemonicParsing="false" text="organizer" toggleGroup="$first">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="don" layoutX="229.0" layoutY="260.0" mnemonicParsing="false" text="donar" toggleGroup="$first" />
+            <Label layoutX="326.0" layoutY="252.0" prefHeight="33.0" prefWidth="260.0" text="তথ্য সংগ্রহের  ফরম">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bc1f1f" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label layoutX="301.0" layoutY="118.0" prefHeight="43.0" prefWidth="218.0" text="         E-mail:utsorgo14@gmsil.com" textFill="#a82121">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutY="285.0" prefHeight="69.0" prefWidth="883.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="19.0" prefHeight="34.0" prefWidth="44.0" text="নাম:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.680952380952381">
+                           <stops>
+                              <Stop color="#dbca18" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label layoutX="388.0" layoutY="15.0" prefHeight="39.0" prefWidth="54.0" text="ডাকনাম:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.680952380952381">
+                           <stops>
+                              <Stop color="#c3b113" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label layoutX="648.0" layoutY="18.0" prefHeight="33.0" prefWidth="56.0" text="পেশা">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.680952380952381">
+                           <stops>
+                              <Stop color="#cdca16" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <TextField layoutX="55.0" layoutY="23.0" prefHeight="25.0" prefWidth="305.0" />
+                  <TextField fx:id="nname" layoutX="442.0" layoutY="23.0" prefHeight="25.0" prefWidth="159.0" />
+                  <TextField fx:id="profession" layoutX="702.0" layoutY="23.0" prefHeight="25.0" prefWidth="161.0" />
+               </children>
+            </AnchorPane>
+            <TextField fx:id="id" layoutX="113.0" layoutY="4.0" />
+            <AnchorPane layoutY="343.0" prefHeight="48.0" prefWidth="878.0">
+               <children>
+                  <Label layoutX="13.0" layoutY="12.0" text="পিতার নাম" />
+                  <Label layoutX="381.0" layoutY="16.0" prefHeight="17.0" prefWidth="62.0" text="মাতার নাম:" />
+                  <TextField fx:id="fname" layoutX="85.0" layoutY="8.0" prefHeight="25.0" prefWidth="275.0" />
+                  <TextField fx:id="mname" layoutX="445.0" layoutY="12.0" prefHeight="25.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="387.0" prefHeight="52.0" prefWidth="871.0">
+               <children>
+                  <Label layoutX="-1.0" layoutY="18.0" prefHeight="17.0" prefWidth="145.0" text="আইডি সহ মাধ্যমের নামঃ" />
+                  <Label layoutX="633.0" layoutY="18.0" prefHeight="17.0" prefWidth="50.0" text="ফোন নং" />
+                  <TextField fx:id="rname" layoutX="144.0" layoutY="14.0" prefHeight="25.0" prefWidth="207.0" />
+                  <TextField fx:id="rphone" layoutX="695.0" layoutY="14.0" prefHeight="25.0" prefWidth="156.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="482.0" prefHeight="44.0" prefWidth="873.0">
+               <children>
+                  <Label layoutX="11.0" layoutY="14.0" prefHeight="17.0" prefWidth="94.0" text="জাতীয়তাঃ" />
+                  <Label layoutX="371.0" layoutY="14.0" text="ধর্ম" />
+                  <Label layoutX="652.0" layoutY="14.0" text="লিংগঃ" />
+                  <RadioButton fx:id="nb" layoutX="71.0" layoutY="14.0" mnemonicParsing="false" text="bangladeshi">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="nationality" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="nf" layoutX="171.0" layoutY="15.0" mnemonicParsing="false" text="foreigner" toggleGroup="$nationality" />
+                  <RadioButton fx:id="ri" layoutX="393.0" layoutY="14.0" mnemonicParsing="false" text="islam">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="religion" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rh" layoutX="480.0" layoutY="14.0" mnemonicParsing="false" text="hindu" toggleGroup="$religion" />
+                  <RadioButton fx:id="ro" layoutX="556.0" layoutY="14.0" mnemonicParsing="false" text="other" toggleGroup="$religion" />
+                  <RadioButton fx:id="sm" layoutX="695.0" layoutY="14.0" mnemonicParsing="false" text="male">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="sex" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="sf" layoutX="782.0" layoutY="14.0" mnemonicParsing="false" text="female" toggleGroup="$sex" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="528.0" prefHeight="52.0" prefWidth="871.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="14.0" prefHeight="17.0" prefWidth="66.0" text="রক্তের গ্রূপঃ" />
+                  <Label layoutX="176.0" layoutY="14.0" text="রক্তচাপঃ" />
+                  <Label layoutX="409.0" layoutY="14.0" prefHeight="17.0" prefWidth="41.0" text="বয়সঃ" />
+                  <Label layoutX="655.0" layoutY="15.0" prefHeight="17.0" prefWidth="66.0" text="ওজনঃ" />
+                  <TextField fx:id="bgroup" layoutX="74.0" layoutY="10.0" prefHeight="25.0" prefWidth="93.0" />
+                  <TextField fx:id="bpressure" layoutX="225.0" layoutY="11.0" prefHeight="25.0" prefWidth="138.0" />
+                  <TextField fx:id="age" layoutX="456.0" layoutY="11.0" prefHeight="25.0" prefWidth="147.0" />
+                  <TextField fx:id="weight" layoutX="710.0" layoutY="10.0" prefHeight="25.0" prefWidth="150.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="8.0" layoutY="576.0" prefHeight="88.0" prefWidth="870.0">
+               <children>
+                  <Label layoutY="14.0" prefHeight="27.0" prefWidth="111.0" text="মোবাইল(নিজ)ঃ" />
+                  <Label layoutX="638.0" layoutY="14.0" text="ফেসবুকঃ" />
+                  <Label layoutX="4.0" layoutY="64.0" prefHeight="17.0" prefWidth="96.0" text="মোবাইল(বাসা)ঃ" />
+                  <Label layoutX="390.0" layoutY="64.0" prefHeight="17.0" prefWidth="52.0" text="সম্পর্কঃ" />
+                  <Label layoutX="638.0" layoutY="56.0" prefHeight="17.0" prefWidth="63.0" text="ঈ-মেইলঃ" />
+                  <TextField fx:id="pphone" layoutX="93.0" layoutY="15.0" prefHeight="25.0" prefWidth="261.0" />
+                  <TextField fx:id="hphone" layoutX="93.0" layoutY="62.0" prefHeight="25.0" prefWidth="260.0" />
+                  <TextField fx:id="relation" layoutX="450.0" layoutY="60.0" prefHeight="25.0" prefWidth="152.0" />
+                  <TextField fx:id="email" layoutX="701.0" layoutY="50.0" />
+                  <TextField fx:id="fb" layoutX="701.0" layoutY="10.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1.0" layoutY="804.0" prefHeight="195.0" prefWidth="878.0">
+               <children>
+                  <Label layoutX="6.0" layoutY="14.0" prefHeight="23.0" prefWidth="151.0" text="মাদকতাসক্ত/ধুমপায়িঃ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="52.0" prefHeight="17.0" prefWidth="120.0" text="রক্তদানে সক্ষম/ইচ্ছুকঃ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="4.0" layoutY="85.0" prefHeight="25.0" prefWidth="123.0" text="সক্ষম না হলে কারনঃ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <RadioButton fx:id="a_y" layoutX="352.0" layoutY="17.0" mnemonicParsing="false" text="yes">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="addicted" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="a_n" layoutX="462.0" layoutY="17.0" mnemonicParsing="false" text="no" toggleGroup="$addicted" />
+                  <RadioButton fx:id="a_i" layoutX="560.0" layoutY="17.0" mnemonicParsing="false" text="inetested to avoid" toggleGroup="$addicted" />
+                  <RadioButton fx:id="b_y" layoutX="357.0" layoutY="63.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="82.0" text="yes">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="interestedinblood" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="b_n" layoutX="462.0" layoutY="63.0" mnemonicParsing="false" text="no" toggleGroup="$interestedinblood" />
+                  <RadioButton fx:id="b_i" layoutX="560.0" layoutY="63.0" mnemonicParsing="false" text="interested" toggleGroup="$interestedinblood" />
+                  <TextField fx:id="cause" layoutX="127.0" layoutY="85.0" prefHeight="25.0" prefWidth="240.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="4.0" layoutY="664.0" prefHeight="103.0" prefWidth="873.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="12.0" prefHeight="32.0" prefWidth="95.0" text="বর্তমান ঠিকানাঃ" />
+                  <Label layoutX="14.0" layoutY="74.0" prefHeight="17.0" prefWidth="69.0" text="ডাকঘরঃ" />
+                  <Label layoutX="187.0" layoutY="74.0" text="থানাঃ" />
+                  <Label layoutX="407.0" layoutY="74.0" prefHeight="17.0" prefWidth="45.0" text="জেলাঃ" />
+                  <Label layoutX="652.0" layoutY="74.0" prefHeight="17.0" prefWidth="66.0" text="বিভাগঃ" />
+                  <Label layoutX="175.0" layoutY="20.0" text="ওয়ার্ড নংঃ" />
+                  <Label layoutX="659.0" layoutY="16.0" prefHeight="24.0" prefWidth="62.0" text="গ্রামঃ" />
+                  <TextField fx:id="woard" layoutX="238.0" layoutY="16.0" prefHeight="25.0" prefWidth="124.0" />
+                  <TextField fx:id="post" layoutX="64.0" layoutY="70.0" prefHeight="25.0" prefWidth="122.0" />
+                  <TextField fx:id="thana" layoutX="227.0" layoutY="70.0" prefHeight="25.0" prefWidth="135.0" />
+                  <TextField fx:id="district" layoutX="451.0" layoutY="70.0" prefHeight="25.0" prefWidth="158.0" />
+                  <TextField fx:id="village" layoutX="704.0" layoutY="16.0" prefHeight="25.0" prefWidth="152.0" />
+                  <TextField fx:id="division" layoutX="707.0" layoutY="70.0" prefHeight="25.0" prefWidth="151.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="765.0" prefHeight="50.0" prefWidth="871.0">
+               <children>
+                  <Label layoutX="4.0" layoutY="7.0" prefHeight="32.0" prefWidth="138.0" text="স্থায়ী ঠিকানাঃ" />
+                  <TextField fx:id="paddress" layoutX="85.0" layoutY="11.0" prefHeight="25.0" prefWidth="273.0" />
+               </children>
+            </AnchorPane>
+            <Label text="Label" />
+            <AnchorPane layoutY="439.0" prefHeight="42.0" prefWidth="868.0">
+               <children>
+                  <Label layoutX="10.0" layoutY="13.0" prefHeight="17.0" prefWidth="154.0" text="জাতীয় পরিচয় পত্র নাম্বারঃ" />
+                  <Label layoutX="628.0" layoutY="5.0" prefHeight="17.0" prefWidth="81.0" text="জন্ম তারিখঃ" />
+                  <TextField fx:id="nid" layoutX="164.0" layoutY="10.0" prefHeight="25.0" prefWidth="199.0" />
+                  <TextField fx:id="bdate" layoutX="705.0" layoutY="-2.0" prefHeight="25.0" prefWidth="156.0" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </content>
+</ScrollPane>
